@@ -36,10 +36,10 @@
                 "input": "public"
               }
             ],
-            "styles": [
+            "styles": [ "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -99,13 +99,16 @@
                 "input": "public"
               }
             ],
-            "styles": [
+            "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a783b4fa-8132-4885-b684-d5c200fb18b0"
   }
 }
