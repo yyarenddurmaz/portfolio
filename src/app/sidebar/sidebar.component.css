@@ -1,0 +1,61 @@
+.sidebar {
+    width: 200px;
+    height: 400px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    text-decoration: none;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #1abc9c;
+  }
+  
+  .section {
+    position: absolute;
+    top: 50%; /* Çizgi başlangıç noktası */
+    left: 0;
+    width: 200px;
+    height: 2px; /* Çizgi uzunluğu */
+    background-color: #555;
+    transform-origin: bottom center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    transform-origin: left center;
+  }
+  
+  .section1 {
+    background-color: red !important;
+    transform: rotate(-90deg);
+  }
+  .section2 {
+    background-color: blue !important;
+    transform: rotate(-45deg);
+  }
+  .section3 {
+    background-color: green !important;
+    transform: rotate(0deg);
+  }
+  .section4 {
+    background-color: gold !important;
+    transform: rotate(45deg);
+  }
+  
